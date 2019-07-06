@@ -14,7 +14,7 @@ app.renderer.plugins.interaction.mapPositionToPoint = (point, x, y) => {
 }
 
 
-var bg = new PIXI.Sprite.fromImage("http://www.yyfun001.com/res/bg_01.png");
+var bg = new PIXI.Sprite.fromImage("https://pixijs.io/examples/examples/assets/bunny.png");
 app.stage.addChild(bg);
 
 bg.width = windowWidth;
